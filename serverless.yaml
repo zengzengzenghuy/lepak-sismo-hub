@@ -1,0 +1,33 @@
+service: data-sources
+frameworkVersion: "3"
+
+custom:
+  webpack:
+    packager: "yarn"
+    includeModules: true
+  envs:
+    dev:
+      DS_STATIC_URL: https://sismo-dev-data-sources-static.s3.eu-west-1.amazonaws.com/
+    staging:
+      DS_STATIC_URL: https://sismo-staging-data-sources-static.s3.eu-west-1.amazonaws.com/
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  memorySize: 1024
+  timeout: 2
+  region: eu-west-1
+  httpApi:
+    cors: true
+  iam:
+    deploymentRole: arn:aws:iam::${aws:accountId}:role/${sls:stage}-data-sources-deploy-cloud-formation
+
+functions:
+  api:
+    handler: src/api/api-lambda.handler
+    events:
+      - httpApi: "*"
+    environment: ${self:custom.envs.${sls:stage}}
+
+plugins:
+  - serverless-webpack

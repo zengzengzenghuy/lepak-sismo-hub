@@ -1,0 +1,92 @@
+{
+  "registryTree": {
+    "root": "0x249d37333a6480092c6cf14b84f36cf388ebe2e91913b953298664f6b75d4c35",
+    "metadata": {
+      "leavesCount": 2
+    },
+    "dataUrl": "/file-store/available-groups/28d3926f0d51d963cd65825642c8a2cb1fc0cef457436a16aba4b5d724fedb77.data.json",
+    "treeUrl": "/file-store/available-groups/e3dce92d731b055ce8e40179c17a6a499b8eeb6a5f5f3c8a19d5dcc2c8b75d03.tree.json"
+  },
+  "accountTrees": [
+    {
+      "root": "0x2f9ee85b9ad822621bbbbe386465336c7397b373d44ca770f335b2b621dfdde7",
+      "groupId": "0x0b567021d1bb087ebddd92009cf7ce1a4a23e7d8cd30dc8900fd2fba977b3053",
+      "chunk": {
+        "chunkNumber": 0,
+        "totalChunks": 1,
+        "min": "0x025dbf373fe82fa4873b238863ea0d0d2c3fe0d5",
+        "max": "0xa1b073d5503a27dfba337cfdb8458b71b3359c74"
+      },
+      "groupProperties": {
+        "internalCollectionId": 0,
+        "generationTimestamp": 1662370961,
+        "isScore": true
+      },
+      "metadata": {
+        "leavesCount": 10
+      },
+      "dataUrl": "/file-store/available-groups/ad206b26f39d931fe2613968059f7280dc4bacc6658aef36f12dab234e6d6bed.data.json",
+      "treeUrl": "/file-store/available-groups/d35cc7f471a87d0b58fc6ab89f87dfda63e2cd6df4dc9199fd2ce29183a412c8.tree.json"
+    },
+    {
+      "root": "0x2f9ee85b9ad822621bbbbe386465336c7397b373d44ca770f335b2b621dfdde7",
+      "groupId": "0x03add31897ff5c5078bf8946c104c33518ddcd32ff66714aa6cac7cd50ccee54",
+      "chunk": {
+        "chunkNumber": 0,
+        "totalChunks": 1,
+        "min": "0x025dbf373fe82fa4873b238863ea0d0d2c3fe0d5",
+        "max": "0xa1b073d5503a27dfba337cfdb8458b71b3359c74"
+      },
+      "groupProperties": {
+        "internalCollectionId": 1,
+        "generationTimestamp": 1662370961,
+        "isScore": true
+      },
+      "metadata": {
+        "leavesCount": 10
+      },
+      "dataUrl": "/file-store/available-groups/ad206b26f39d931fe2613968059f7280dc4bacc6658aef36f12dab234e6d6bed.data.json",
+      "treeUrl": "/file-store/available-groups/d35cc7f471a87d0b58fc6ab89f87dfda63e2cd6df4dc9199fd2ce29183a412c8.tree.json"
+    },
+    {
+      "root": "0x2f9ee85b9ad822621bbbbe386465336c7397b373d44ca770f335b2b621dfdde7",
+      "groupId": "0x21978fdc75db5aaf73d95c82b37d944c8a1e0ea16c11b5313877a8ab0ac49dec",
+      "chunk": {
+        "chunkNumber": 0,
+        "totalChunks": 1,
+        "min": "0x025dbf373fe82fa4873b238863ea0d0d2c3fe0d5",
+        "max": "0xa1b073d5503a27dfba337cfdb8458b71b3359c74"
+      },
+      "groupProperties": {
+        "internalCollectionId": 2,
+        "generationTimestamp": 1662370961,
+        "isScore": true
+      },
+      "metadata": {
+        "leavesCount": 10
+      },
+      "dataUrl": "/file-store/available-groups/ad206b26f39d931fe2613968059f7280dc4bacc6658aef36f12dab234e6d6bed.data.json",
+      "treeUrl": "/file-store/available-groups/d35cc7f471a87d0b58fc6ab89f87dfda63e2cd6df4dc9199fd2ce29183a412c8.tree.json"
+    },
+    {
+      "root": "0x255c4e08cae8859ee343b9259f1fb94ce3ecf76f8d7c6cf2c9f51dacd4516dba",
+      "groupId": "0x16b4e6dfa5a9a34c98d5790fd68ba637cfe9109f8a988fb74bc72268091f191b",
+      "chunk": {
+        "chunkNumber": 0,
+        "totalChunks": 1,
+        "min": "0x000000000a38444e0a6e37d3b630d7e855a7cb13",
+        "max": "0xffedcdac8ba51be3101607fab1b44462c3015fb0"
+      },
+      "groupProperties": {
+        "internalCollectionId": 3,
+        "generationTimestamp": 1662369627,
+        "isScore": true
+      },
+      "metadata": {
+        "leavesCount": 4944
+      },
+      "dataUrl": "/file-store/available-groups/0e4c755175271016408fbe9605e61d5356d24d1edc42f77c5d63d8e295177a25.data.json",
+      "treeUrl": "/file-store/available-groups/b4ae3a0bc70e4410b0b49c897cfd8485d3f90462ac79bf2c68b2c83d9c45b14b.tree.json"
+    }
+  ]
+}

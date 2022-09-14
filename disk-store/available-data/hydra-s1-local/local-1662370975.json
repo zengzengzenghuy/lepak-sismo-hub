@@ -1,0 +1,8 @@
+{
+  "attesterName": "hydra-s1-local",
+  "timestamp": 1662370975,
+  "network": "local",
+  "identifier": "0x249d37333a6480092c6cf14b84f36cf388ebe2e91913b953298664f6b75d4c35",
+  "transactionHash": "0x00e1bcdbaa4ec0940d438f5facb84e6b0bfb24cdca6a9c725bf1736f7ec7f4fe",
+  "isOnChain": false
+}
